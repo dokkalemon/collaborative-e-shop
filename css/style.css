@@ -1,0 +1,142 @@
+/* GENERAL STYLE */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+body {
+    font-family: sans-serif;
+    background-color: #0f0e17;
+    font-family: 'Lato', sans-serif;
+};
+
+.full-width {
+    width: 100%;
+}
+
+.middle-cont {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.d-none {
+    display: none;
+}
+
+/* Header */
+header {
+    height: 80px;
+    background-color: #ff8906;
+
+}
+
+.header {
+    height: 100%;
+    display: flex;
+  
+}
+
+.header-logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: s;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+.header-product {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+};
+
+.header-product{
+   padding-left: 10px;
+}
+
+.fav-counter {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cart-counter {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-product button {
+    background-color:#0f0e17; 
+    border: none;
+    padding: 10px;
+    color: #ff8906;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #0f0e17; 
+}
+
+.header-product button:hover {
+    background-color: transparent;
+    color: #0f0e17; 
+    border: 1px solid #0f0e17; 
+}
+/* card */
+.product-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.item-card {
+    width: 500px;
+    background-color: #ff8906;
+    padding: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.item-card:hover {
+    background-color: white;
+}
+
+.card-head img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cta {
+    width: 100%;
+    display: flex;
+}
+
+.cta-btn {
+    margin-top: 25px;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #0f0e17;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor:pointer
+}
+
+.cta-btn:hover {
+    background-color: #0f0e17;
+    color: #ff8906;
+}
+
+.clicked {
+    transform: scale(1.5);
+    color: #fff
+};
+
